@@ -14,6 +14,8 @@ public class TheMovingSphere : MonoBehaviour
     SphereCollider mySphereCollider;
     TheMovingSphere myNewScript;
 
+    [SerializeField] private Color sphereColor;
+
     // Runs before start
     void Awake()
     {
