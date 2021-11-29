@@ -9,6 +9,11 @@ public class TheMovingSphere : MonoBehaviour
     float myFirstFloat;
     string myFirstString = "Hello";
 
+    GameObject myFirstObject;
+    Camera myMainCamera;
+    SphereCollider mySphereCollider;
+    TheMovingSphere myNewScript;
+
     // Runs before start
     void Awake()
     {
