@@ -35,6 +35,16 @@ public class TheMovingSphere : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetMouseButtonDown(0))
+        {
+            Debug.Log("You pressed the left mouse button");
+        }
+
+        if (Input.GetKeyDown("a"))
+        {
+            Debug.Log("You pressed the 'a' key");
+        }
+
         // Create a ray starting at this object and going forward.
         Ray myRay = new Ray(transform.position, transform.forward);
         RaycastHit rayHit; // Variable to store raycast output.
