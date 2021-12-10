@@ -6,7 +6,7 @@ public class Spawner : MonoBehaviour
 {
 
     public GameObject prefab;
-    public float radius = 5;
+    public float radius = 0;
     // Start is called before the first frame update
     void Start()
     {
